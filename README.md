@@ -9,5 +9,3 @@ This is part of my project in understanding how API calls are made using `https:
 * README.md
 
 #URL
-
-*
