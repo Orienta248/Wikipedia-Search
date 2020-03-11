@@ -1,13 +1,12 @@
 #Wiki-search
-This is part of my project in understanding how API calls are made.
+This is part of my project in understanding how API calls are made using `https://en.wikipedia.org`.
 
-#Files Included
+#Files Includes
 
 * index.html
-* main.css in css folder
-* main.js
-* img folder
-* scss folder
+* index.css
+* index.js
+* README.md
 
 #URL
 

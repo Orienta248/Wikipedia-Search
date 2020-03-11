@@ -1,20 +1,28 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Wiki Search</title>
-  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-
-</head>
-<body>
-<div class="container">
-  <h1>wikipedia search</h1>
-  <input id="searchTerm" name="search" placeholder="Search..."/>
-  <button id="search">Submit</button>
-  <div id="output"></div>
-</div>
-
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="./script.js"></script>
-
-</body>
+<!DOCTYPE html5>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Wiki Viewer</title>
+  </head>
+  <body>
+    <div class="top">
+      <h1>WikiSearch</h1>
+    </div>
+    <form class="search">
+      <input
+      class="input"
+        type="text"
+        class="search__field"
+        placeholder="What are you searching for?"
+      />
+      <button class="btn">
+        <span>Search</span>
+      </button>
+    </form>
+    <ul class="search-list"></ul>
+    <script src="index.js"></script>
+  </body>
 </html>
